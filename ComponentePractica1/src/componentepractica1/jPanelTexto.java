@@ -4,18 +4,22 @@
  * and open the template in the editor.
  */
 package componentepractica1;
+import java.io.Serializable;
+import javax.swing.JPanel;
 
 /**
  *
  * @author alumnado
  */
-public class ComponentePractica1 {
+public class jPanelTexto extends JPanel implements Serializable {
 
-    /**
-     * @param args the command line arguments
-     */
+    public jPanelTexto(){
+}
+    
+    
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+      
     }
     
 }
