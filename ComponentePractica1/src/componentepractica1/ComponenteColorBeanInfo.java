@@ -282,6 +282,7 @@ public class ComponenteColorBeanInfo extends SimpleBeanInfo {
             properties[PROPERTY_size] = new PropertyDescriptor ( "size", componentepractica1.ComponenteColor.class, "getSize", "setSize" ); // NOI18N
             properties[PROPERTY_text] = new PropertyDescriptor ( "text", componentepractica1.ComponenteColor.class, "getText", "setText" ); // NOI18N
             properties[PROPERTY_tono] = new PropertyDescriptor ( "tono", componentepractica1.ComponenteColor.class, "getTono", "setTono" ); // NOI18N
+            properties[PROPERTY_tono].setPropertyEditorClass ( componentepractica1.ColorPropertyEditorSupport.class );
             properties[PROPERTY_toolkit] = new PropertyDescriptor ( "toolkit", componentepractica1.ComponenteColor.class, "getToolkit", null ); // NOI18N
             properties[PROPERTY_toolTipText] = new PropertyDescriptor ( "toolTipText", componentepractica1.ComponenteColor.class, "getToolTipText", "setToolTipText" ); // NOI18N
             properties[PROPERTY_topLevelAncestor] = new PropertyDescriptor ( "topLevelAncestor", componentepractica1.ComponenteColor.class, "getTopLevelAncestor", null ); // NOI18N

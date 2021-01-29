@@ -33,72 +33,59 @@ public class Principal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
-        componenteColorDos = new componentepractica1.ComponenteColor();
-        componenteColorTres = new componentepractica1.ComponenteColor();
         jPanel1 = new javax.swing.JPanel();
-        componenteColorUno = new componentepractica1.ComponenteColor();
+        componenteColor4 = new componentepractica1.ComponenteColor();
+        componenteColor2 = new componentepractica1.ComponenteColor();
+        componenteColor3 = new componentepractica1.ComponenteColor();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("1");
+        componenteColor4.setText("componenteColor1");
+        componenteColor4.setTono(new Tono(new Color(0,0,255),new Color(255,0,0)));
 
-        componenteColorUno.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                componenteColorUnoActionPerformed(evt);
-            }
-        });
+        componenteColor2.setText("componenteColor1");
+
+        componenteColor3.setText("componenteColor1");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(componenteColorUno, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(21, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(componenteColor4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(componenteColor3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(componenteColor2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(componenteColorUno, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(69, Short.MAX_VALUE))
+                .addComponent(componenteColor4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 7, Short.MAX_VALUE)
+                .addComponent(componenteColor2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(componenteColor3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(49, 49, 49)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
-                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(componenteColorDos, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(componenteColorTres, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(414, 414, 414))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(179, Short.MAX_VALUE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(179, 179, 179))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(56, 56, 56)
-                        .addComponent(jLabel1))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(45, 45, 45)
-                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(componenteColorDos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(componenteColorTres, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(100, 100, 100))
+                .addGap(105, 105, 105)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(110, Short.MAX_VALUE))
         );
 
         pack();
@@ -109,13 +96,13 @@ public class Principal extends javax.swing.JFrame {
     }//GEN-LAST:event_componenteColor2MouseClicked
 
     private void componenteColor2FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_componenteColor2FocusGained
-        componenteColorUno.setBackground(componenteColorUno.getTono().getColorFondo());
-         componenteColorUno.setForeground(componenteColorUno.getTono().getColorTexto());
+        componenteColor2.setBackground(componenteColor2.getTono().getColorFondo());
+         componenteColor2.setForeground(componenteColor2.getTono().getColorTexto());
     }//GEN-LAST:event_componenteColor2FocusGained
 
     private void componenteColor2FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_componenteColor2FocusLost
-         componenteColorUno.setBackground(Color.WHITE);
-         componenteColorUno.setForeground(Color.BLACK);
+         componenteColor2.setBackground(Color.RED);
+         componenteColor2.setForeground(Color.BLACK);
     }//GEN-LAST:event_componenteColor2FocusLost
 
     private void componenteColor2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_componenteColor2ActionPerformed
@@ -127,13 +114,13 @@ public class Principal extends javax.swing.JFrame {
     }//GEN-LAST:event_componenteColor3ActionPerformed
 
     private void componenteColor3FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_componenteColor3FocusGained
-         componenteColorDos.setBackground(componenteColorUno.getTono().getColorFondo());
-         componenteColorDos.setForeground(componenteColorUno.getTono().getColorTexto());
+         componenteColor3.setBackground(componenteColor3.getTono().getColorFondo());
+         componenteColor3.setForeground(componenteColor3.getTono().getColorTexto());
     }//GEN-LAST:event_componenteColor3FocusGained
 
     private void componenteColor3FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_componenteColor3FocusLost
-        componenteColorDos.setBackground(Color.WHITE);
-         componenteColorDos.setForeground(Color.BLACK);
+        componenteColor3.setBackground(Color.WHITE);
+         componenteColor3.setForeground(Color.GREEN);
     }//GEN-LAST:event_componenteColor3FocusLost
 
     private void componenteColor4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_componenteColor4ActionPerformed
@@ -141,18 +128,14 @@ public class Principal extends javax.swing.JFrame {
     }//GEN-LAST:event_componenteColor4ActionPerformed
 
     private void componenteColor4FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_componenteColor4FocusGained
-         componenteColorTres.setBackground(componenteColorUno.getTono().getColorFondo());
-         componenteColorTres.setForeground(componenteColorUno.getTono().getColorTexto());
+         componenteColor4.setBackground(componenteColor4.getTono().getColorFondo());
+         componenteColor4.setForeground(componenteColor4.getTono().getColorTexto());
     }//GEN-LAST:event_componenteColor4FocusGained
 
     private void componenteColor4FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_componenteColor4FocusLost
-       componenteColorTres.setBackground(Color.WHITE);
-         componenteColorTres.setForeground(Color.BLACK);
+       componenteColor4.setBackground(Color.BLUE);
+         componenteColor4.setForeground(Color.BLACK);
     }//GEN-LAST:event_componenteColor4FocusLost
-
-    private void componenteColorUnoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_componenteColorUnoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_componenteColorUnoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -211,10 +194,9 @@ public class Principal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private componentepractica1.ComponenteColor componenteColorDos;
-    private componentepractica1.ComponenteColor componenteColorTres;
-    private componentepractica1.ComponenteColor componenteColorUno;
-    private javax.swing.JLabel jLabel1;
+    private componentepractica1.ComponenteColor componenteColor2;
+    private componentepractica1.ComponenteColor componenteColor3;
+    private componentepractica1.ComponenteColor componenteColor4;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
