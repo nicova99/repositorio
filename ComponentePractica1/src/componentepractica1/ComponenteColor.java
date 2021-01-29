@@ -28,9 +28,5 @@ public class ComponenteColor extends JTextField implements Serializable{
         this.tono = tono;
     }
 
-     
-    
-    
-    
-    
+ 
 }

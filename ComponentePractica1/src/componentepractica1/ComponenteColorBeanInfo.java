@@ -9,7 +9,7 @@ import java.beans.*;
 
 /**
  *
- * @author Dams2
+ * @author nico_
  */
 public class ComponenteColorBeanInfo extends SimpleBeanInfo {
 
@@ -122,25 +122,25 @@ public class ComponenteColorBeanInfo extends SimpleBeanInfo {
     private static final int PROPERTY_paintingForPrint = 96;
     private static final int PROPERTY_paintingTile = 97;
     private static final int PROPERTY_parent = 98;
-    private static final int PROPERTY_pigmento = 99;
-    private static final int PROPERTY_preferredScrollableViewportSize = 100;
-    private static final int PROPERTY_preferredSize = 101;
-    private static final int PROPERTY_preferredSizeSet = 102;
-    private static final int PROPERTY_propertyChangeListeners = 103;
-    private static final int PROPERTY_registeredKeyStrokes = 104;
-    private static final int PROPERTY_requestFocusEnabled = 105;
-    private static final int PROPERTY_rootPane = 106;
-    private static final int PROPERTY_scrollableTracksViewportHeight = 107;
-    private static final int PROPERTY_scrollableTracksViewportWidth = 108;
-    private static final int PROPERTY_scrollOffset = 109;
-    private static final int PROPERTY_selectedText = 110;
-    private static final int PROPERTY_selectedTextColor = 111;
-    private static final int PROPERTY_selectionColor = 112;
-    private static final int PROPERTY_selectionEnd = 113;
-    private static final int PROPERTY_selectionStart = 114;
-    private static final int PROPERTY_showing = 115;
-    private static final int PROPERTY_size = 116;
-    private static final int PROPERTY_text = 117;
+    private static final int PROPERTY_preferredScrollableViewportSize = 99;
+    private static final int PROPERTY_preferredSize = 100;
+    private static final int PROPERTY_preferredSizeSet = 101;
+    private static final int PROPERTY_propertyChangeListeners = 102;
+    private static final int PROPERTY_registeredKeyStrokes = 103;
+    private static final int PROPERTY_requestFocusEnabled = 104;
+    private static final int PROPERTY_rootPane = 105;
+    private static final int PROPERTY_scrollableTracksViewportHeight = 106;
+    private static final int PROPERTY_scrollableTracksViewportWidth = 107;
+    private static final int PROPERTY_scrollOffset = 108;
+    private static final int PROPERTY_selectedText = 109;
+    private static final int PROPERTY_selectedTextColor = 110;
+    private static final int PROPERTY_selectionColor = 111;
+    private static final int PROPERTY_selectionEnd = 112;
+    private static final int PROPERTY_selectionStart = 113;
+    private static final int PROPERTY_showing = 114;
+    private static final int PROPERTY_size = 115;
+    private static final int PROPERTY_text = 116;
+    private static final int PROPERTY_tono = 117;
     private static final int PROPERTY_toolkit = 118;
     private static final int PROPERTY_toolTipText = 119;
     private static final int PROPERTY_topLevelAncestor = 120;
@@ -263,8 +263,6 @@ public class ComponenteColorBeanInfo extends SimpleBeanInfo {
             properties[PROPERTY_paintingForPrint] = new PropertyDescriptor ( "paintingForPrint", componentepractica1.ComponenteColor.class, "isPaintingForPrint", null ); // NOI18N
             properties[PROPERTY_paintingTile] = new PropertyDescriptor ( "paintingTile", componentepractica1.ComponenteColor.class, "isPaintingTile", null ); // NOI18N
             properties[PROPERTY_parent] = new PropertyDescriptor ( "parent", componentepractica1.ComponenteColor.class, "getParent", null ); // NOI18N
-            properties[PROPERTY_pigmento] = new PropertyDescriptor ( "pigmento", componentepractica1.ComponenteColor.class, "getPigmento", "setPigmento" ); // NOI18N
-            properties[PROPERTY_pigmento].setPropertyEditorClass (componentepractica1.ColorPropertyEditorSupport.class );
             properties[PROPERTY_preferredScrollableViewportSize] = new PropertyDescriptor ( "preferredScrollableViewportSize", componentepractica1.ComponenteColor.class, "getPreferredScrollableViewportSize", null ); // NOI18N
             properties[PROPERTY_preferredSize] = new PropertyDescriptor ( "preferredSize", componentepractica1.ComponenteColor.class, "getPreferredSize", "setPreferredSize" ); // NOI18N
             properties[PROPERTY_preferredSizeSet] = new PropertyDescriptor ( "preferredSizeSet", componentepractica1.ComponenteColor.class, "isPreferredSizeSet", null ); // NOI18N
@@ -283,6 +281,7 @@ public class ComponenteColorBeanInfo extends SimpleBeanInfo {
             properties[PROPERTY_showing] = new PropertyDescriptor ( "showing", componentepractica1.ComponenteColor.class, "isShowing", null ); // NOI18N
             properties[PROPERTY_size] = new PropertyDescriptor ( "size", componentepractica1.ComponenteColor.class, "getSize", "setSize" ); // NOI18N
             properties[PROPERTY_text] = new PropertyDescriptor ( "text", componentepractica1.ComponenteColor.class, "getText", "setText" ); // NOI18N
+            properties[PROPERTY_tono] = new PropertyDescriptor ( "tono", componentepractica1.ComponenteColor.class, "getTono", "setTono" ); // NOI18N
             properties[PROPERTY_toolkit] = new PropertyDescriptor ( "toolkit", componentepractica1.ComponenteColor.class, "getToolkit", null ); // NOI18N
             properties[PROPERTY_toolTipText] = new PropertyDescriptor ( "toolTipText", componentepractica1.ComponenteColor.class, "getToolTipText", "setToolTipText" ); // NOI18N
             properties[PROPERTY_topLevelAncestor] = new PropertyDescriptor ( "topLevelAncestor", componentepractica1.ComponenteColor.class, "getTopLevelAncestor", null ); // NOI18N
