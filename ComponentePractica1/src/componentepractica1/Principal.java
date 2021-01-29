@@ -13,10 +13,7 @@ import java.util.logging.Logger;
 import javax.help.HelpBroker;
 import javax.help.HelpSet;
 
-/**
- *
- * @author Dams2
- */
+
 public class Principal extends javax.swing.JFrame {
 
     /**
@@ -195,16 +192,16 @@ public class Principal extends javax.swing.JFrame {
      private void ponAyuda(){
         try 
         {
-            // Carga el fichero de ayuda
+         
             File fichero = new File("help"+File.separator+"help_set.hs");
             URL hsURL = fichero.toURI().toURL();
 
-            // Crea el HelpSet y el HelpBroker
+    
             HelpSet helpset = new HelpSet(getClass().getClassLoader(), hsURL);
             HelpBroker hb = helpset.createHelpBroker();
 
-            // Pone ayuda a item de menu al pulsarlo y a F1 en ventana
-          
+     
+          //f1
             hb.enableHelpKey(getRootPane(),"aplicacion",helpset);
         } 
         catch (Exception e) 

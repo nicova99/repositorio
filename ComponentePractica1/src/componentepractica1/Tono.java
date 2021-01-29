@@ -8,10 +8,7 @@ package componentepractica1;
 import java.awt.Color;
 import java.io.Serializable;
 
-/**
- *
- * @author Dams2
- */
+
 public class Tono implements Serializable {
 
     private Color colorFondo = new Color(255,0,0);
