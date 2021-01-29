@@ -11,7 +11,7 @@ import java.io.Serializable;
 
 public class Tono implements Serializable {
 
-    private Color colorFondo = new Color(255,0,0);
+    private Color colorFondo = new Color(0,0,0);
     private Color colorTexto = new Color(255,255,255);
 
     public Tono() {

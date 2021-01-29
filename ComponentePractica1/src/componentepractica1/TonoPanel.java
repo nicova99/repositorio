@@ -32,14 +32,14 @@ public class TonoPanel extends javax.swing.JPanel {
 
         jLabelColorTexto.setText("Texto");
 
-        jTextFieldColorFondo.setText("255,0,0");
+        jTextFieldColorFondo.setText("0,0,0");
         jTextFieldColorFondo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldColorFondoActionPerformed(evt);
             }
         });
 
-        jTextFieldColorTexto.setText("255,255,0");
+        jTextFieldColorTexto.setText("255,255,255");
         jTextFieldColorTexto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldColorTextoActionPerformed(evt);
@@ -88,10 +88,12 @@ public class TonoPanel extends javax.swing.JPanel {
 
     public Tono getValue()
     {
-        String[] str = jTextFieldColorFondo.getText().toString().split(",");
-        String[] str2 = jTextFieldColorTexto.getText().toString().split(",");
-        Color colorFondo= new Color(Integer.parseInt(str[0]),Integer.parseInt(str[1]),Integer.parseInt(str[2]));
-        Color colorTexto= new Color(Integer.parseInt(str2[0]),Integer.parseInt(str2[1]),Integer.parseInt(str2[2]));
+        String[] string1 = jTextFieldColorFondo.getText().toString().split(",");
+        String[] string2 = jTextFieldColorTexto.getText().toString().split(",");
+        
+        Color colorFondo= new Color(Integer.parseInt(string1[0]),Integer.parseInt(string1[1]),Integer.parseInt(string1[2]));
+        Color colorTexto= new Color(Integer.parseInt(string2[0]),Integer.parseInt(string2[1]),Integer.parseInt(string2[2]));
+        
         return new Tono(colorFondo,colorTexto);
     }
     
