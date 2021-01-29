@@ -16,9 +16,11 @@ import javax.swing.JTextField;
 public class ComponenteColor extends JTextField implements Serializable{
     private Tono tono;
     
-    
-    public ComponenteColor() {
+        public ComponenteColor() {
     }
+    
+    
+
 
     public Tono getTono() {
         return tono;
