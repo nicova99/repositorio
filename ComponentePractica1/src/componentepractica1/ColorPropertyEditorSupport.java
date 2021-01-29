@@ -35,9 +35,7 @@ public class ColorPropertyEditorSupport extends PropertyEditorSupport{
         Color fondo = tonoPanel.getValue().getColorFondo();
       
          
-        return "new Tono(" + "new Color(" + fondo.getRed() + "," +  fondo.getGreen() + ","  + fondo.getBlue()  + ")"
-                +","+
-                "new Color(" + texto.getRed() + "," +  texto.getGreen() + ","  + texto.getBlue() + ")" + ")";
+        return "new Tono(" + "new Color(" + fondo.getRed() + "," +  fondo.getGreen() + ","  + fondo.getBlue()  + ")"+","+"new Color(" + texto.getRed() + "," +  texto.getGreen() + ","  + texto.getBlue() + ")" + ")";
     }
     
 
