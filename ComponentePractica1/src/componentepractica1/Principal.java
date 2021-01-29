@@ -24,7 +24,7 @@ public class Principal extends javax.swing.JFrame {
      */
     public Principal() {
         initComponents();
-        ayuda();
+        ponAyuda();
     }
 
     /**
@@ -224,7 +224,7 @@ public class Principal extends javax.swing.JFrame {
         });
     }
     
-     private void ayuda(){
+     private void ponAyuda(){
         try 
         {
             // Carga el fichero de ayuda
